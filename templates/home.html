@@ -1,0 +1,198 @@
+{% load static%}
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+   <!-- nabvar section-->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">protfolio</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+            <li><a href="#home" class="t-white roboto> <i class="fa-solid fa-house>Home </i></a></li>
+            <li><a href="#about" class="t-white roboto> <i class="fa-solid >About </i></a></li>
+
+            <li><a href="#skills" class="t-white roboto> <i class="fa-solid fa-code>Skills </i></a></li>
+
+            <li><a href="#project" class="t-white roboto> <i class="fa-solid fa-project-diagram>Project </i></a></li>
+
+            <li><a href="#contract" class="t-white roboto> <i class="fa-solid fa-roket>Contract </i></a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!--home section-->
+    <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flext items-center">
+            <div class="home-content">
+                <h6 class="popinss">Hi i,m</h6>
+                <h1 class="t-white">Md.Shofiqul Islam</h1>
+                <h4 class="popinss">Software Enginner</h4>
+                <a href="{% static 'pdf/resume.pdf' %}" target="_blank">
+                    <button class="btn popinss">Resume</button>
+                </a>
+                <a class="btn live-popinss"id="hireme" href="" target="_blank">Lets talk</a>
+
+            </div>
+
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <img src="{% static 'images/tomal.png' %}" alt="picture">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--about section-->
+    <section id="about">
+        <h1 class="t center my-2 t-white f-2">About Me<Menu></Menu></h1>  
+        <div class="about container flex s-around">
+            <div class="about-left flex s-around items-center">
+                <img src="{% static 'images/dog.png' %}" alt="dog">
+
+            </div>
+
+        </div>
+        <div class="about-right flex">
+            <div class="about-content">
+                <h1 class="t-white m-b-1 popinss">Md.Shofiqul Islam</h1>
+                <p class="t-white popinss">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum libero eaque quis iste doloremque eius id. Perspiciatis, ipsa earum vero in quod eum dolorem cumque voluptatibus, placeat voluptates tenetur provident!</p>
+                <a href="btn" id="hireme" href="">HireMe</a>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--skills section-->
+    <section id="skills">
+        <h1 class="t-center my-2 t-white f-2">Skills</h1>
+        <div class="services-container flex s-around h-50">
+        <div class=" skills-left flex s-center items-center">
+            <img src="{%static 'images/pro.png'%}" alt="">
+        </div>
+
+        <div class="skills-right flex items-center">
+            <div class="skills-container">
+                <div>
+                <div class="java bar p-relative"><span class="bar-content left t-white"> Core Java</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                </div>
+                <div>
+                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
+                        class="bar-content right-skills t-white">80%</span></div>
+                <div class="js bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
+                        class="bar-content right-skills t-white">60%</span></div>
+                <div class="python bar p-relative"><span class="bar-content left t-white">Python</span><span
+                        class="bar-content right-skills t-white">50%</span></div>
+                <div class="mysql bar p-relative"><span class="bar-content left t-white">MySQL</span><span
+                        class="bar-content right-skills t-white">40%</span></div>        
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+<!--section project-->
+<section id="project">
+    <h1 class="t-center my-2 t-white f-2">Project</h1>
+    <div class="project-container flex s-center">
+        <div class="project-item flex f-col s-center items-center">
+            <h1 class="t-white popinss">Amazone colne</h1>
+            <p class="t-white popinss">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquam culpa in optio natus labore sapiente iure exercitationem ex veniam quidem cupiditate maiores, praesentium id, minus eius odit, dolorem fuga!</p>
+
+        <div class="button flex s-around">
+            <a href="" target="_blank" class="btn mx-1 m-top">GitHub</a>
+
+        
+
+        </div>
+
+        
+
+        <div class="project-item flex f-col s-center items-center">
+        <h1 class="t-white popinss">Amazone colne</h1>
+        <p class="t-white popinss">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aliquam culpa in optio natus labore sapiente iure exercitationem ex veniam quidem cupiditate maiores, praesentium id, minus eius odit, dolorem fuga!</p>
+
+        <div class="button flex s-around">
+            <a href="" target="_blank" class="btn mx-1 m-top">GitHub</a>
+
+        </div>
+
+    </div>
+
+    </div>
+    </div>
+
+</section>
+
+<!--content me section-->
+
+<section id="Content" class="m-b-1">
+    <h1 class="t-center my-2 t-white f-2">Contract Me</h1>
+    <div class="Contract-container flex s-around items-center">
+        <div class="form" id="Contractform">
+            <form method="post">
+                {% csrf_token %}
+                <div class="name form-div">
+                   
+                    <input type="text" name="name" id="name" class="popinss" placeholder="Enter Your Name">
+                </div>
+
+                <div class="email form-div">
+                    <input type="email" name="email" id="" class="popinss" placeholder="Enter Your Email">
+                </div>
+                <div class="phone form-div">
+                    <input type="phone" name="number" id="" class="popinss" placeholder="Enter Your Phone">
+                </div>
+
+                    <div class="textarea form-div">
+                        <textarea  name="content" id="textarea" cols="30" rows="10" class="popinss" placeholder="Enter Your Message">
+                            </textarea>
+                    
+                </div>
+                <button type="" class="btn popinss" id="submit">Send</button>
+            </form>  
+        </div>
+    </div>
+
+
+</section>
+<!--footer section-->
+<footer id="footer">
+    <ul class="flex s-center w-80 m-auto my-2 res">
+        <li><a href="#home" class="popinss">Home</a></li>
+        <li><a href="#about" class="popinss">About</a></li>
+        <li><a href="#skills" class="popinss">Skills</a></li>
+        <li><a href="#project" class="popinss">Project</a></li>
+        <li><a href="#protfolio" class="protfolio">Home </a></li>      
+    </ul>
+    <ul class="flex s-center w-80 font-awesome">
+       <a href="" target="_blank">
+        <li><i class="fa-brands fa-linkedin-in"></i></li>
+       </a>
+       <a href="" target="_blank">
+        <li><i class="fa-brands fa-github-in"></i></li>
+       </a>
+       <a href="" target="_blank">
+        <li><i class="fa-brands fa-instragram-in"></i></li>
+       </a>
+        </ul>
+        <p class="t-center my-2 popinss">Copy;All Right Reserved-<span class="cpy-white popinss">Shofiqul</span></p>
+
+</footer>
+</body>
+</html>
